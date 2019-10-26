@@ -23,10 +23,14 @@ Example `config.json`:
 ```
 {
     "api_key": "API_KEY",
-    "application_key": "APP_KEY"
+    "application_key": "APP_KEY",
+    "device_mac_address": "ff:ff:ff:ff:ff:ff",
+    "archive_dir": "/tmp/"
 }
 ```
 
 All of the following keys are required:
-* `api_key`: API key from Ambient Weather (e.g. `asdasd`)
-* `application_key`: Application key from Ambient Weather (e.g. `asdasd`)
+* `api_key`: API key from Ambient Weather.
+* `application_key`: Application key from Ambient Weather.
+* `device_mac_address`: Device MAC address from Ambient Weather.
+* `archive_dir`: Folder where Ambient Weather data will be stored.
